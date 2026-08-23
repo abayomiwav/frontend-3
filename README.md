@@ -1,4 +1,4 @@
-# StellarExpress — Frontend
+# StellarExpress Interface
 
 The marketing site and product surface for StellarExpress, a logistics
 platform built on Stellar.
