@@ -1,0 +1,10 @@
+# For local orchestration alongside the backend, see docker-compose.yml
+# in the StellarExpress/backend repo — this file only builds and runs
+# the frontend image standalone.
+services:
+  frontend:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      NEXT_PUBLIC_API_URL: http://localhost:4000/graphql
